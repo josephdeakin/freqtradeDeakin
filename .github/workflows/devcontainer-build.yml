@@ -2,8 +2,7 @@ name: Devcontainer Pre-Build
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 3 * * 0"
+  # schedule removed - fork doesn't need automatic runs
   # push:
   #   branches:
   #     - "master"
